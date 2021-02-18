@@ -187,25 +187,25 @@
             {
               "name": "places",
               "label": "Places",
-              "plugin": "gnd",
+              "plugin": "srophe",
               "template": "<placeName ref=\"${id}\">${0:$TM_SELECTED_TEXT}</placeName>"
             },
             {
               "name": "people",
               "label": "People",
-              "plugin": "gnd",
+              "plugin": "srophe",
               "template": "<persName ref=\"${id}\">${0:$TM_SELECTED_TEXT}</persName>"
             },
             {
               "name": "terms",
               "label": "Terms",
-              "plugin": "gnd",
+              "plugin": "srophe",
               "template": "<term ref=\"${id}\">${0:$TM_SELECTED_TEXT}</term>"
             },
             {
               "name": "organisations",
               "label": "Organisations",
-              "plugin": "gnd",
+              "plugin": "srophe",
               "template": "<orgName ref=\"${id}\">${0:$TM_SELECTED_TEXT}</orgName>"
             }
           ]
@@ -241,7 +241,7 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "slimdom-sax-parser": "^1.4.0"
   }
 }
